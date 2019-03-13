@@ -18,7 +18,7 @@ eureka:
 env:
   test
 girl:
-  name: lili
+  name: ls
   age: 18
  
 
