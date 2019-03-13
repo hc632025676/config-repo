@@ -1,13 +1,13 @@
-spring:
-  application:
-    name: order
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    username: root
-    password: hc0832
-    url: jdbc:mysql://127.0.0.1:3306/springcloud?characterEncoding=utf-8&useSSL=false
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
-# 共有的配置order.yml
+# spring:
+#  application:
+#    name: order
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    username: root
+#    password: hc0832
+#    url: jdbc:mysql://127.0.0.1:3306/springcloud?characterEncoding=utf-8&useSSL=false
+# eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
+# 当获取order-dev.yml时，会先获取order.yml，然后将两者合并，这是config的规则，可以把公用配置写在order.yml
